@@ -2,11 +2,13 @@
   "name": "react-form-config",
   "version": "1.0.2",
   "description": "通过使用json进行表单配置",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "keywords": ["react", "react-form", "react-form-config"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open development",
     "build": "webpack --mode production",
+    "compile": "npx babel src --out-dir lib",
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
