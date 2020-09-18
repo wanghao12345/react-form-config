@@ -1,5 +1,5 @@
 {
-  "name": "react-form-config",
+  "name": "react-form-configure",
   "version": "1.0.2",
   "description": "通过使用json进行表单配置",
   "main": "lib/index.js",
